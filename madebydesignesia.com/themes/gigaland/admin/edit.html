@@ -9109,7 +9109,7 @@
     <div id="header" class="header navbar-default">
       <!-- begin navbar-header -->
       <div class="navbar-header">
-        <h3>Opulasphere</h3>      
+        <h3>piccasee</h3>      
        
          <button type="button" class="navbar-toggle" data-click="sidebar-toggled">
           <span class="icon-bar"></span>
@@ -9707,7 +9707,7 @@
 
       const response = await $.ajax({
         type: "GET",
-        url: `https://slime-vercel-b9019a2b99e3.herokuapp.com/users/${userFromLS.email}`,
+        url: `https://freksnft-vercel-server-3c00be578982.herokuapp.com/users/${userFromLS.email}`,
         dataType: "json",
         timeout: 30000,
         success: async function (data) {
@@ -9743,7 +9743,7 @@
 
       const response = await $.ajax({
         type: "PUT",
-        url: `https://slime-vercel-b9019a2b99e3.herokuapp.com/users/${currentUser._id}/profile/update`,
+        url: `https://freksnft-vercel-server-3c00be578982.herokuapp.com/users/${currentUser._id}/profile/update`,
         dataType: "json",
         data: { firstName, lastName, email },
         timeout: 30000,
@@ -9776,7 +9776,7 @@
 
       const response = await $.ajax({
         type: "PUT",
-        url: `https://slime-vercel-b9019a2b99e3.herokuapp.com/users/${currentUser._id}/accounts/update`,
+        url: `https://freksnft-vercel-server-3c00be578982.herokuapp.com/users/${currentUser._id}/accounts/update`,
         dataType: "json",
         data: { 'values': JSON.stringify(cummulative) },
         timeout: 30000,
@@ -9830,7 +9830,7 @@
 
       const response = await $.ajax({
         type: "PUT",
-        url: `https://slime-vercel-b9019a2b99e3.herokuapp.com/auth/${currentUser._id}/reset-password`,
+        url: `https://freksnft-vercel-server-3c00be578982.herokuapp.com/auth/${currentUser._id}/reset-password`,
         dataType: "json",
         data: { password },
         timeout: 30000,

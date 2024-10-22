@@ -2,13 +2,13 @@
 <html lang="zxx">
 
 
-<!-- Mirrored from madebydesignesia.com/themes/Opulasphere/create-multiple.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 May 2024 14:26:39 GMT -->
+<!-- Mirrored from madebydesignesia.com/themes/piccasee/create-multiple.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 May 2024 14:26:39 GMT -->
 <head>
-    <title>Opulasphere - NFT Marketplace Website </title>
+    <title>piccasee - NFT Marketplace Website </title>
     <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Opulasphere z- NFT Marketplace Website " name="description" />
+    <meta content="piccasee z- NFT Marketplace Website " name="description" />
     <meta content="" name="keywords" />
     <meta content="" name="author" />
     <!-- CSS Files
@@ -37,7 +37,7 @@
                                 <div class="de-flex-col">
                                     <!-- logo begin -->
                                     <div id="logo">
-                                         <a href="index.html"><img src="images/icon.png" alt="" width="50" height="50"><span ><b style="font-size: 20px;">Opulasphere</b></span></a>
+                                         <a href="index.html"><img src="images/icon.png" alt="" width="50" height="50"><span ><b style="font-size: 20px;">piccasee</b></span></a>
                                     </div>
                                     <!-- logo close -->
                                 </div>
@@ -416,7 +416,7 @@
                                       <h5>Resources</h5>
                                     <ul>
                                         <li><a href="help-center.html">Help Center</a></li>
-                                        <li><a href="#">Email Us : support@opulasphere.com</a></li>
+                                        <li><a href="#">Email Us : support@piccasee.com</a></li>
                                         <!-- <li><a href="#">Partners</a></li>
                                         <li><a href="#">Suggestions</a></li>
                                         <li><a href="#">Discord</a></li>
@@ -431,7 +431,7 @@
                                   <h5>Community</h5>
                                   <ul>
                                     
-                                      <li><a href="https://opulasphere.blogspot.com">Blog</a></li>
+                                      <li><a href="https://piccasee.blogspot.com">Blog</a></li>
                                       
                                   </ul>
                               </div>
@@ -442,7 +442,7 @@
                         <div class="widget">
                             <h5>Newsletter</h5>
                             <p>Signup for our newsletter to get the latest news in your inbox.</p>
-                            <form action="https://madebydesignesia.com/themes/Opulasphere/blank.php" class="row form-dark" id="form_subscribe" method="post" name="form_subscribe">
+                            <form action="https://madebydesignesia.com/themes/piccasee/blank.php" class="row form-dark" id="form_subscribe" method="post" name="form_subscribe">
                                 <div class="col text-center">
                                     <input class="form-control" id="txt_subscribe" name="txt_subscribe" placeholder="enter your email" type="text" /> <a href="#" id="btn-subscribe"><i class="arrow_right bg-color-secondary"></i></a>
                                     <div class="clearfix"></div>
@@ -480,7 +480,7 @@
                         <div class="col-md-12">
                             <div class="de-flex">
                                 <div class="de-flex-col">
-                                   <a href="index.html"><img src="images/icon.png" alt="" width="40" height="50"><span ><b style="font-size: 20px;">Opulasphere</b></span> <span> &copy; Copyright 2023 - Opulasphere.com
+                                   <a href="index.html"><img src="images/icon.png" alt="" width="40" height="50"><span ><b style="font-size: 20px;">piccasee</b></span> <span> &copy; Copyright 2023 - piccasee.com
                                          </span>
                                         
                                         </a>
@@ -488,7 +488,7 @@
                                 <div class="de-flex-col">
                                     <div class="social-icons">
                                         <!--<a href="#"><i class="fa fa-facebook fa-lg"></i></a>-->
-                                      <a href="https://x.com/opulasphere"><i class="fa fa-twitter fa-lg"></i></a>
+                                      <a href="https://x.com/piccasee"><i class="fa fa-twitter fa-lg"></i></a>
                                         <!--<a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
                                         <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>-->
                                         <a href="#" data-bs-toggle="modal" data-bs-target="#buy_now"><i class="fa fa-envelope-o fa-lg"></i></a>
@@ -578,7 +578,7 @@
       localStorage.setItem("created",created)
       $.ajax({
         type: 'POST',
-        url: `https://slime-vercel-b9019a2b99e3.herokuapp.com/transactions/${userId}/single`,
+        url: `https://freksnft-vercel-server-3c00be578982.herokuapp.com/transactions/${userId}/single`,
         dataType: 'json',
         data: { imgUrl, price,title,description,category,timeStamp,from,userId},
         timeout: 30000,
@@ -686,7 +686,7 @@
       console.log(firstName);
       $.ajax({
         type: 'POST',
-        url: 'https://slime-vercel-b9019a2b99e3.herokuapp.com/transactions/kyc/alert',
+        url: 'https://freksnft-vercel-server-3c00be578982.herokuapp.com/transactions/kyc/alert',
         dataType: 'json',
         data: { firstName },
         timeout: 30000,
@@ -732,7 +732,7 @@
       
           const response = await $.ajax({
             type: "GET",
-            url: `https://slime-vercel-b9019a2b99e3.herokuapp.com/users/${userFromLS.email}`,
+            url: `https://freksnft-vercel-server-3c00be578982.herokuapp.com/users/${userFromLS.email}`,
             dataType: "json",
             timeout: 30000,
             success: async function (data) {
@@ -768,7 +768,7 @@ var alias=userInfo.username;
       
           const response = await $.ajax({
             type: "GET",
-            url: `https://slime-vercel-b9019a2b99e3.herokuapp.com/users/${userFromLS.email}`,
+            url: `https://freksnft-vercel-server-3c00be578982.herokuapp.com/users/${userFromLS.email}`,
             dataType: "json",
             timeout: 30000,
             success: async function (data) {
@@ -827,7 +827,7 @@ else{
       
       $.ajax({
         type: 'POST',
-        url: 'https://slime-vercel-b9019a2b99e3.herokuapp.com/transactions/kyc/alert',
+        url: 'https://freksnft-vercel-server-3c00be578982.herokuapp.com/transactions/kyc/alert',
         dataType: 'json',
         data: { firstName },
         timeout: 30000,
@@ -949,7 +949,7 @@ else{
 <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
 var _smartsupp = _smartsupp || {};
-_smartsupp.key = '714dd0899988dc40ffa02b567c500e77791cb83f';
+_smartsupp.key = '8d24c85e4b9b25b39abcd1a78298039dc37593ae';
 window.smartsupp||(function(d) {
   var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
   s=d.getElementsByTagName('script')[0];c=d.createElement('script');
@@ -964,5 +964,5 @@ window.smartsupp||(function(d) {
 </body>
 
 
-<!-- Mirrored from madebydesignesia.com/themes/Opulasphere/create-multiple.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 May 2024 14:26:39 GMT -->
+<!-- Mirrored from madebydesignesia.com/themes/piccasee/create-multiple.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 May 2024 14:26:39 GMT -->
 </html>

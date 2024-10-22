@@ -1,5 +1,5 @@
  /* --------------------------------------------------
-  * © Copyright 2023 - Opulasphere.com
+  * © Copyright 2023 - piccasee.com
   * --------------------------------------------------*/
 (function($) {
 	'use strict';
@@ -1594,9 +1594,9 @@
 
      jQuery("#dark-mode").on("click", function() {
         if(jQuery('body').hasClass('dark-scheme')){
-            window.location.href = 'https://Opulasphere.io/index.html';
+            window.location.href = 'https://piccasee.io/index.html';
         }else{
-            window.location.href = 'https://Opulasphere.io/02_dark-index.html';
+            window.location.href = 'https://piccasee.io/02_dark-index.html';
         }
      });
 
